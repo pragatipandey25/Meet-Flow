@@ -112,27 +112,6 @@ NEXT_PUBLIC_BASE_URL=http://localhost:3000
 
 ---
 
-## 📸 Screenshots
-
-Add screenshots here:
-
-```
-public/
- ├── home.png
- ├── meeting.png
- ├── recordings.png
- └── personal-room.png
-```
-
-Example:
-
-```md
-![Home](./public/home.png)
-![Meeting](./public/meeting.png)
-```
-
----
-
 ## 🚀 Deployment
 
 Deploy effortlessly using **Vercel**.
