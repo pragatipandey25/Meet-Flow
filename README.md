@@ -1,68 +1,79 @@
-# 🚀 Meet Flow
+# 🚀 MeetFlow
 
-> A modern, feature-rich video conferencing platform built with Next.js, TypeScript, and Stream Video SDK. Experience seamless meetings with secure authentication, personal meeting rooms, scheduling, recordings, and a beautiful responsive UI.
+> **MeetFlow** is a modern, full-stack video conferencing platform that enables seamless virtual meetings with secure authentication, instant meeting creation, scheduling, personal meeting rooms, and recordings—all wrapped in a clean, responsive user interface.
 
 <p align="center">
-  <img src="./public/banner.png" alt="Meet Flow Banner" width="100%">
+  <img src="./public/banner.png" alt="MeetFlow Banner" width="100%" />
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Next.js-15-black?style=for-the-badge&logo=next.js"/>
-  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white"/>
-  <img src="https://img.shields.io/badge/TailwindCSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Stream-Video-005FFF?style=for-the-badge"/>
-  <img src="https://img.shields.io/badge/License-MIT-green?style=for-the-badge"/>
+  <a href="https://nextjs.org"><img src="https://img.shields.io/badge/Next.js-16-black?style=for-the-badge&logo=next.js" /></a>
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" />
+  <img src="https://img.shields.io/badge/TailwindCSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white" />
+  <img src="https://img.shields.io/badge/Stream-Video-005FFF?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Clerk-Authentication-6C47FF?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/License-MIT-success?style=for-the-badge" />
 </p>
+
+---
+
+## 🌟 Overview
+
+MeetFlow is a scalable video conferencing application inspired by modern meeting platforms. It provides a smooth and intuitive meeting experience with secure user authentication, HD video calls, meeting scheduling, and personal meeting rooms.
 
 ---
 
 ## ✨ Features
 
-- 🔐 Secure Authentication
-- 📹 HD Video Meetings
-- 🎙️ Crystal Clear Audio
-- 💬 Real-Time Chat
-- 📅 Schedule Meetings
+- 🔐 Secure Authentication with Clerk
+- 📹 High-Quality Video & Audio Calls
 - 🚀 Instant Meeting Creation
+- 📅 Schedule Future Meetings
 - 👤 Personal Meeting Room
+- 🔗 Share Meeting Links
 - 📺 Meeting Recordings
-- 📱 Fully Responsive Design
-- 🌙 Modern & Clean UI
-- ⚡ Lightning Fast Performance
+- 📜 View Upcoming & Previous Meetings
+- 📱 Responsive Design
+- 🌙 Modern UI with Tailwind CSS
+- ⚡ Fast Performance with Next.js
+- 🔒 Protected Routes & Middleware
 
 ---
 
 ## 🛠️ Tech Stack
 
-| Technology       | Purpose            |
-| ---------------- | ------------------ |
-| Next.js          | Frontend Framework |
-| TypeScript       | Type Safety        |
-| Tailwind CSS     | Styling            |
-| Stream Video SDK | Video Calling      |
-| Clerk            | Authentication     |
-| Shadcn UI        | UI Components      |
+| Technology       | Purpose                 |
+| ---------------- | ----------------------- |
+| Next.js 16       | React Framework         |
+| TypeScript       | Type Safety             |
+| Tailwind CSS     | Styling                 |
+| Stream Video SDK | Real-time Video Calling |
+| Clerk            | Authentication          |
+| shadcn/ui        | Reusable UI Components  |
+| React DatePicker | Meeting Scheduling      |
 
 ---
 
-## 📂 Project Structure
+## 📁 Project Structure
 
-```
-Meet-Flow/
-│── app/
-│── components/
-│── actions/
-│── hooks/
-│── lib/
-│── public/
-│── styles/
-│── middleware.ts
-│── package.json
+```text
+MeetFlow/
+│
+├── app/
+├── actions/
+├── components/
+├── hooks/
+├── providers/
+├── lib/
+├── public/
+├── middleware.ts
+├── package.json
+└── README.md
 ```
 
 ---
 
-## ⚙️ Installation
+## 🚀 Installation
 
 Clone the repository
 
@@ -82,15 +93,15 @@ Install dependencies
 npm install
 ```
 
-Start the development server
+Run the development server
 
 ```bash
 npm run dev
 ```
 
-Open
+Open your browser
 
-```
+```text
 http://localhost:3000
 ```
 
@@ -98,7 +109,7 @@ http://localhost:3000
 
 ## 🔑 Environment Variables
 
-Create a `.env.local` file in the project root.
+Create a `.env.local` file in the root directory.
 
 ```env
 NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=
@@ -114,23 +125,25 @@ NEXT_PUBLIC_BASE_URL=http://localhost:3000
 
 ## 🚀 Deployment
 
-Deploy effortlessly using **Vercel**.
+Deploy easily on **Vercel**.
 
 ```bash
 npm run build
 ```
 
+After deployment, remember to update your environment variables in Vercel.
+
 ---
 
 ## 🤝 Contributing
 
-Contributions are welcome!
+Contributions are welcome.
 
-1. Fork the repository
-2. Create a feature branch
-3. Commit your changes
-4. Push the branch
-5. Open a Pull Request
+1. Fork the repository.
+2. Create a new feature branch.
+3. Commit your changes.
+4. Push your branch.
+5. Open a Pull Request.
 
 ---
 
@@ -138,18 +151,19 @@ Contributions are welcome!
 
 **Pragati Pandey**
 
-GitHub: https://github.com/pragatipandey25
+- GitHub: https://github.com/pragatipandey25
+- LinkedIn: https://www.linkedin.com/in/pragati-pandey-25f2006/
 
 ---
 
-## ⭐ Support
+## ⭐ Show Your Support
 
-If you found this project helpful, consider giving it a ⭐ on GitHub.
+If you found this project useful, consider giving it a ⭐ on GitHub.
 
-It helps others discover the project and motivates future improvements.
+Your support helps the project reach more developers and motivates future improvements.
 
 ---
 
 <p align="center">
-Made with ❤️ using Next.js, TypeScript & Stream Video SDK
+Built with ❤️ using Next.js, TypeScript, Clerk & Stream Video SDK
 </p>
